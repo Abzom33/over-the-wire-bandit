@@ -30,12 +30,35 @@ Goal : To find the password for the next level which is stored in a file called 
 
 ## Solution 
 
-<img width="362" height="149" alt="image" src="https://github.com/user-attachments/assets/b0be4ab9-6ecf-4dff-b627-5b2a35247714" />
+<img width="288" height="24" alt="image" src="https://github.com/user-attachments/assets/1e05fa01-94a1-479b-b9a2-35dd5a4a83f5" />
+
 
 
 ## Explanation
 
-the "-" symbol is used by the cat command for stdin (Standard Input) therefore its an option. To avoid you need to write out the full file path by do thig this ./ 
+the "-" symbol is used by the cat command for stdin (Standard Input) therefore its an option. To avoid you need to write out the full file path by ./[file name]
 
 Password : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+
+
+
+
+ # Level 2 - 3
+
+## Goal :  To open a file called --spaces in this filename-- in the home directory to get the level for the next level
+
+
+## Solution 
+
+<img width="576" height="23" alt="image" src="https://github.com/user-attachments/assets/bd4501b2-f853-4769-8028-9f28e8efb651" />
+
+
+
+
+## Explanation
+
+the "-" symbol is used by the cat command for stdin (Standard Input) therefore its an option. To avoid you need to write out the full file path by ./[file name] 
+
+Password : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
