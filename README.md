@@ -18,4 +18,24 @@ Goal : To find the password for the next level which is stored in a file called 
  ## Explanation 
  You use the ssh command which stands for (Secure Shell) to connect to  bandit.labs.overthewire.org remotely over a secure network.  The cat command is used to display the contents inside a file
 
- The password is :  ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+ The password is :  ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If4
+
+
+
+
+ # Level 1 -2 
+
+## Goal :  To open a file called - in the home directory to get the level for the next level
+
+
+## Solution 
+
+<img width="362" height="149" alt="image" src="https://github.com/user-attachments/assets/b0be4ab9-6ecf-4dff-b627-5b2a35247714" />
+
+
+## Explanation
+
+the "-" symbol is used by the cat command for stdin (Standard Input) therefore its an option. To avoid you need to write out the full file path by do thig this ./ 
+
+Password : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
