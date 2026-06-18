@@ -62,3 +62,20 @@ the "-" symbol is used by the cat command for stdin (Standard Input) therefore i
 
 Password : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
+
+# Level 3 -4
+
+## Goal : To find the password in n a hidden file in the inhere directory.
+
+Solution:
+<img width="451" height="115" alt="image" src="https://github.com/user-attachments/assets/600fe182-954a-4dbd-94a2-fd32776d9558" />#
+
+<img width="558" height="181" alt="image" src="https://github.com/user-attachments/assets/67b1527b-749b-430a-b4e2-a8094e7f62d5" />
+
+
+Explanation : use the 'cd' to get the inhere directory then use cat along with ./ to get the file path rather . option
+
+Password : 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+
+
