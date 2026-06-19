@@ -80,4 +80,18 @@ Explanation : use the 'cd' to get the inhere directory then use cat along with .
 Password : 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 
+# Level 4 - 5
+
+Goal : To find The password for the next level is stored in the only human-readable file in the inhere directory.
+
+Solution :
+
+<img width="750" height="238" alt="image" src="https://github.com/user-attachments/assets/89de3178-3b3e-4bbd-ae93-d1a8a41c9f88" />
+
+
+Explanation : The <code><b>find</b></code> command is used to filter out any files by using the option <code><b>type -f</b></code>, then we use the piping symbol (|) to redirect its output to the ##xargs## command which is used to convert stdin (standard input) into an argument which is applied to the second command . The file command , this used to find the file type, in this case we are looking for a human readable file , which is ASCII text. Once we do , use the cat command and ./ to get the full file path as it contains dash
+
+## Password : 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+
 
