@@ -89,7 +89,8 @@ Solution :
 <img width="750" height="238" alt="image" src="https://github.com/user-attachments/assets/89de3178-3b3e-4bbd-ae93-d1a8a41c9f88" />
 
 
-##Explanation : The <code><b>find</b></code> command is used to filter out any files by using the option <code><b>type -f</b></code>, then we use the piping symbol <code><b>|</b></code> to redirect its output to the <code><b>xargs</b></code> command which is used to convert stdin (standard input) into an argument which is applied to the second command . The file command , this used to find the file type, in this case we are looking for a human readable file , which is ASCII text. Once we do , use the cat command and <code><b>./</b></code> to get the full file path as it contains <code><b>-</b></code>
+##Explanation : 
+The <code><b>find</b></code> command is used to filter out any files by using the option <code><b>type -f</b></code>, then we use the piping symbol <code><b>|</b></code> to redirect its output to the <code><b>xargs</b></code> command which is used to convert stdin (standard input) into an argument which is applied to the second command . The file command , this used to find the file type, in this case we are looking for a human readable file , which is ASCII text. Once we do , use the cat command and <code><b>./</b></code> to get the full file path as it contains <code><b>-</b></code>
 
 ## Password : 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
