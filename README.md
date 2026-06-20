@@ -1,14 +1,15 @@
 <img width="827" height="22" alt="image" src="https://github.com/user-attachments/assets/83033951-7b57-4100-9aa4-ada214927d32" /># over-the-wire-bandit
-In this section , I will be covering OTW bandit game levels 1 -20. I will document my journeyincluding what have I learnt , challenges I have expeirnced .
+In this section , I will be covering OTW bandit game levels 1 -20. I will document my journey including what have I learnt , challenges I have expeirnced .
 
 # Level 0 - 1
 
 Goal : To find the password for the next level which is stored in a file called readme located in the home directory. 
 
 ## Solution :
+
 <img width="696" height="506" alt="image" src="https://github.com/user-attachments/assets/24ba61a4-0127-45e9-9886-c4d092ee21b2" />
 
-## To find the password
+## To find the password : 
 
 <img width="490" height="22" alt="image" src="https://github.com/user-attachments/assets/99d904ad-9c7d-42d4-90f4-7ce9755f9802" />
 
@@ -28,13 +29,13 @@ Goal : To find the password for the next level which is stored in a file called 
 ## Goal :  To open a file called - in the home directory to get the level for the next level
 
 
-## Solution 
+## Solution : 
 
 <img width="288" height="24" alt="image" src="https://github.com/user-attachments/assets/1e05fa01-94a1-479b-b9a2-35dd5a4a83f5" />
 
 
 
-## Explanation
+## Explanation : 
 
 the "-" symbol is used by the cat command for stdin (Standard Input) therefore its an option. To avoid you need to write out the full file path by ./[file name]
 
@@ -67,7 +68,9 @@ Password : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ## Goal : To find the password in n a hidden file in the inhere directory.
 
-Solution:
+### Solution:
+
+
 <img width="451" height="115" alt="image" src="https://github.com/user-attachments/assets/600fe182-954a-4dbd-94a2-fd32776d9558" />#
 
 
@@ -179,6 +182,22 @@ In this level , we are looking for a file with the follwing properties , human-r
 
 
  ## Password : dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+
+ # Level 8 - 9
+
+ ## Goal : The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
+  
+
+ ## Solution : 
+ 
+ <img width="456" height="19" alt="image" src="https://github.com/user-attachments/assets/402ea4fa-8f39-42bc-80c5-ff48f5554d33" />
+
+
+ ## Explaination : 
+
+ 
+
 
   
 
