@@ -145,7 +145,8 @@ In this level , we are looking for a file with the follwing properties , human-r
   - <code><b>group</b></code> = This finds files that belong to the group.
   -  We use <code><b>user</b></code> to find files belong to user bandit7
   -  <code><b>group</b></code> to find files belong to the group bandit6
- 
+  -  <code><b>grep</b></code> = used to find the word password in the Linux File Sytem
+  -  <code><b> | </b></code> to redirect the output of the first command into the second command.
 
 
   ## Password : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
