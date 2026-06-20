@@ -95,4 +95,31 @@ The <code><b>find</b></code> command is used to filter out any files by using th
 ## Password : 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 
+# Level 5 - 6
+
+## Goal : Find the password for the next level in a file inside <code><b>inhere</b></code> which has the following properties :
+
+- human-readable
+- 1033 bytes in size
+- not executable
+
+
+## Solution :
+
+<img width="651" height="26" alt="image" src="https://github.com/user-attachments/assets/dd213b87-0d39-44ae-814a-4b4862d65229" />
+
+
+## Explanation :
+
+In this level , we are looking for a file with the follwing properties , human-readable , 1033 bytes in size , not executable . We can use the <code><b>find</b></code> command to search for files in a directory. We can use the options :
+
+- <code><b>.</b></code> =  to look in this current directory
+- <code><b>- type f</b></code>  filter out files
+-  <code><b>- size </b></code>  ( c = Bytes , k = kilobytes , M = Megabits , G = Gigabytes ) - 1033c is 1033 bytes
+-  <code><b>- ! executable </b></code>  = not executable
+
+
+## Password : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+
 
