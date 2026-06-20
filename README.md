@@ -157,8 +157,7 @@ In this level , we are looking for a file with the follwing properties , human-r
 
 
 
-
-  # Level 7 - 8
+ # Level 7 - 8
 
   ## Goal : The password for the next level is stored in the file data.txt next to the word <code<b>millionth</b></code
 
