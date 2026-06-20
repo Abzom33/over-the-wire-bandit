@@ -205,9 +205,9 @@ We use the following option for the `uniq` command:
 
 - `-u` — returns only the lines that are unique (appeared exactly once).
 
-> **Note:** For `uniq` to work correctly, you must run `sort` first.  
-> `uniq` can only detect duplicates that are **adjacent** to each other.  
-> So `sort` arranges the lines alphabetically, then `uniq -u` removes duplicates and returns each unique line once.
+- For `uniq` to work correctly, you must run `sort` first.  
+- `uniq` can only detect duplicates that are **adjacent** to each other.  
+-  So `sort` arranges the lines alphabetically, then `uniq -u` removes duplicates and returns each unique line once.
 
 
 
@@ -231,7 +231,7 @@ In this level, we use the commands `strings` and `grep`.
 - `strings` —  It extracts human-readable strings from files such as binary files.
 - `grep` — Seaches for matching patterns in a file.
 
- > We use the `|` piping symbol to redirect the output of the command `strings` into the `grep`
+ - We use the `|` piping symbol to redirect the output of the command `strings` into the `grep`
   command.
 
 
