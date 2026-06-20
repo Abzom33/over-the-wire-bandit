@@ -194,7 +194,25 @@ In this level , we are looking for a file with the follwing properties , human-r
  <img width="456" height="19" alt="image" src="https://github.com/user-attachments/assets/402ea4fa-8f39-42bc-80c5-ff48f5554d33" />
 
 
- ## Explaination : 
+ ## Explaination : In this level , we use commands <code><b>sort</b></code>  <code><b>uniq</b></code>
+
+ - <code><b>sort</b></code> = This command is used to sort a file , arranging the file in a particular order .
+ - <code><b>uniq</b></code> =  This command used to filter out any reapeated lines in a file.
+
+
+  We the option for the <code><b>uniq</b></code> command  :
+
+  - <code><b>g- u</b></code>  = to get only the line that is unique or has been shown once.
+
+
+-  For <code><b>uniq</b></code> command to work . We need to use the <code><b>sort</b></code> command first , as the <code><b>uniq</b></code> cannot detect duplicates that are not adjacent to each other . Therefore the <code><b>sort</b></code> command is used to sort the text in alphabetically order so each line is adjacent to each other . Then <code><b>uniq -u </b></code> is used to remove duplicates and show lines of text once.
+
+
+
+## Password : 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+  
+ 
 
  
 
