@@ -123,6 +123,9 @@ In this level , we are looking for a file with the follwing properties , human-r
 
 
 
+
+
+
 # Level 6 - 7
 
 ## Goal : We are looking for a password for the next level which is stored somewhere on the server which has the following properties :
@@ -150,6 +153,34 @@ In this level , we are looking for a file with the follwing properties , human-r
 
 
   ## Password : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+
+
+
+
+  # Level 7 - 8
+
+  ## Goal : The password for the next level is stored in the file data.txt next to the word <code<b>millionth</b></code
+
+
+  ## Solution :
+
+  <img width="510" height="26" alt="image" src="https://github.com/user-attachments/assets/157aac11-4a64-47d3-8c0a-00238cf727c0" />
+
+
+
+  ## Explanation :  To find the password we use 2 commands , <code><b>grep</b></code> and <code><b>cat</b></code> . 
+
+
+  -  <code><b>grep</b></code> = This command is used to search for matching patterns in a file . We use to find the pattern <code><b>millionth</b></code>
+  -  <code><b>cat</b></code> = This command is used to display contents of a file or it can be used
+    to concatenate files together. For this context , we are using to display contents the file  <code><b>data.txt</b></code>
+  -  <code><b> | </b></code> to redirect the output of the first command into the second command.
+ 
+
+
+ ## Password : dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
   
 
 
