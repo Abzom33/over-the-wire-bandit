@@ -1,4 +1,4 @@
-# over-the-wire-bandit
+<img width="827" height="22" alt="image" src="https://github.com/user-attachments/assets/83033951-7b57-4100-9aa4-ada214927d32" /># over-the-wire-bandit
 In this section , I will be covering OTW bandit game levels 1 -20. I will document my journeyincluding what have I learnt , challenges I have expeirnced .
 
 # Level 0 - 1
@@ -120,6 +120,37 @@ In this level , we are looking for a file with the follwing properties , human-r
 
 
 ## Password : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+
+
+# Level 6 - 7
+
+## Goal : We are looking for a password for the next level which is stored somewhere on the server which has the following properties :
+
+- owned by user bandit7
+- owned by group bandit6
+- 33 bytes in size
+
+
+## Solution :
+
+<img width="827" height="22" alt="image" src="https://github.com/user-attachments/assets/5385de5e-2578-4710-95fd-ff4996b412a8" />
+
+
+## Explanation : In this level the password is stored <code><b>somewhere on the server</b></code> , which means that it could be anywhere.
+
+- Therfore , we need to search the whole file system . We use the <code><b>find</b></code> command and use these options  :
+  - <code><b>/</b></code>  = This stands for root , which represents the whole Linux File System.
+  - <code><b>user</b></code> = This finds files that belong to the user.
+  - <code><b>group</b></code> = This finds files that belong to the group.
+  -  We use <code><b>user</b></code> to find files belong to user bandit7
+  -  <code><b>group</b></code> to find files belong to the group bandit6
+ 
+
+
+  ## Password : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+  
+
 
 
 
