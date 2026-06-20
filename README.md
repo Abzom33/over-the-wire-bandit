@@ -213,6 +213,32 @@ We use the following option for the `uniq` command:
 
 ## Password : 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
+
+
+
+# Level 9 - 10 : The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
+
+
+## Solution : 
+
+<img width="462" height="22" alt="image" src="https://github.com/user-attachments/assets/f7e9532c-f14a-4848-bebb-9fae95505b8b" />
+
+
+
+## Explanation :  
+In this level, we use the commands `strings` and `grep`.
+
+- `strings` —  It extracts human-readable strings from files such as binary files.
+- `grep` — Seaches for matching patterns in a file.
+
+ > We use the `|` piping symbol to redirect the output of the command `strings` into the `grep`
+  command.
+
+
+## Password :  FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+
+
   
  
 
