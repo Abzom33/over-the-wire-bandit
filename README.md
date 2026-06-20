@@ -194,18 +194,20 @@ In this level , we are looking for a file with the follwing properties , human-r
  <img width="456" height="19" alt="image" src="https://github.com/user-attachments/assets/402ea4fa-8f39-42bc-80c5-ff48f5554d33" />
 
 
- ## Explaination : In this level , we use commands <code><b>sort</b></code>  <code><b>uniq</b></code>
+## Explanation
 
- - <code><b>sort</b></code> = This command is used to sort a file , arranging the file in a particular order .
- - <code><b>uniq</b></code> =  This command used to filter out any reapeated lines in a file.
+In this level, we use the commands `sort` and `uniq`.
 
+- `sort` — sorts a file, arranging its contents in a particular order.
+- `uniq` — filters out repeated lines in a file.
 
-  We the option for the <code><b>uniq</b></code> command  :
+We use the following option for the `uniq` command:
 
-  - <code><b>g- u</b></code>  = to get only the line that is unique or has been shown once.
+- `-u` — returns only the lines that are unique (appeared exactly once).
 
-
--  For <code><b>uniq</b></code> command to work . We need to use the <code><b>sort</b></code> command first , as the <code><b>uniq</b></code> cannot detect duplicates that are not adjacent to each other . Therefore the <code><b>sort</b></code> command is used to sort the text in alphabetically order so each line is adjacent to each other . Then <code><b>uniq -u </b></code> is used to remove duplicates and show lines of text once.
+> **Note:** For `uniq` to work correctly, you must run `sort` first.  
+> `uniq` can only detect duplicates that are **adjacent** to each other.  
+> So `sort` arranges the lines alphabetically, then `uniq -u` removes duplicates and returns each unique line once.
 
 
 
