@@ -285,6 +285,36 @@ For this level , all the letters have shifted by 13 positions. So the letter `A`
 
 
 
+# Level 12 - 13
+
+## Goal : The password for the next level is stored in the file `data.txt`, which is a `hexdump` of a file that has been repeatedly compressed.
+
+## Solution :
+
+<img width="700" height="659" alt="image" src="https://github.com/user-attachments/assets/de500a98-f2b7-4f7d-8494-0d14d0aeb3d6" />
+
+
+
+Explanation :
+Since `data.txt` is a hexdump , you have to reverse by using the command `xxd -r `to reverse the hexdump , since it is not pernament you have to redirect by using the `>` symbol to redirect into a new file called hexdump.
+
+- First we need to identify what type of file we are dealing with, we can use the `file` command to check the file type
+- Use `mv` to rename the file with the correct suffix so the decompression tool recognises it. For example if file tells you it's a `gzip` compressed file, rename it to `.gz`
+- Then use the correct tool to decompress it. `gzip`, `bzip2`, `tar` etc. each handle different formats
+- Keep repeating this check with file, rename with mv, decompress , until file tells you it's `ASCII` text
+- Once it's `ASCII` text, use `cat` to read the password
+
+
+  ## Password :
+
+  `FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn`
+   
+
+   
+
+
+
+
   
  
 
