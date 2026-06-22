@@ -258,6 +258,32 @@ In this level, we use the commands `strings` and `grep`.
 ## Password : dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
 
+# Level 11 - 12
+
+## Goal : The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions
+
+
+## Solution : 
+
+<img width="674" height="41" alt="image" src="https://github.com/user-attachments/assets/a7b2ef7d-dc37-443c-982d-0df1ddcb94c6" />
+
+
+## Explanation :
+
+For this level , all the letters have shifted by 13 positions. So the letter `A` --> `N`, 
+`Z` --> `M` . Therfore we need shift each letter by 13 positions to get the password.  We can use `tr` command , which is used for translating characters.
+
+- First for we need get all letters A-Z upper and lowercase
+-  For the second set , we use all the letters that have been rotated 13 positions , so it can be mapped to the first set , which includes A-Z .  `N-Z` `A-M`
+
+- Result :  <code><b> cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m</b></code>
+
+
+## Password :
+
+- The password is `7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4`
+
+
 
   
  
