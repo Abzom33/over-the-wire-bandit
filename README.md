@@ -248,7 +248,9 @@ In this level, we use the commands `strings` and `grep`.
  <img width="460" height="23" alt="image" src="https://github.com/user-attachments/assets/36e8347c-aa37-4356-936d-ff8ce7f7979e" />
 
 
- ## Explanation : For this level , the textfile <code><b>data.txt</b></code> contains base64 encoded data. To get the password for this level you need it to decode it by using this option:
+ ## Explanation : 
+ 
+ For this level , the textfile <code><b>data.txt</b></code> contains base64 encoded data. To get    the password for this level you need it to decode it by using this option:
 
  - <code><b>base64 -d</b></code> = this is used to decode the base64 encoded data.
 
