@@ -155,7 +155,7 @@ In this level , we are looking for a file with the follwing properties , human-r
   -  <code><b> | </b></code> to redirect the output of the first command into the second command.
 
 
-  ## Password : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+  ## Password : `Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3`
 
 
 
