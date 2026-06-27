@@ -122,7 +122,7 @@ In this level , we are looking for a file with the follwing properties , human-r
 -  <code><b>- ! executable </b></code>  = not executable
 
 
-## Password : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+## Password : `pXa26xhMWaC2SvDotA4r9EgZkulOeSBW`
 
 
 
