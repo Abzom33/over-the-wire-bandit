@@ -39,7 +39,7 @@ Goal : To find the password for the next level which is stored in a file called 
 
 the "-" symbol is used by the cat command for stdin (Standard Input) therefore its an option. To avoid you need to write out the full file path by ./[file name]
 
-Password : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+Password : `PK8fYLZg2hnHSz83plBL1iEPKdD3QToB`
 
 
 
