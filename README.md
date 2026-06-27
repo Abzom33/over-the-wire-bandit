@@ -19,7 +19,7 @@ Goal : To find the password for the next level which is stored in a file called 
  ## Explanation 
  You use the ssh command which stands for (Secure Shell) to connect to  bandit.labs.overthewire.org remotely over a secure network.  The cat command is used to display the contents inside a file
 
- The password is :  ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If4
+## password is :  `6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR`
 
 
 
