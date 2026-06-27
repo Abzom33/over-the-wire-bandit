@@ -255,7 +255,7 @@ In this level, we use the commands `strings` and `grep`.
  - <code><b>base64 -d</b></code> = this is used to decode the base64 encoded data.
 
 
-## Password : dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+## Password : ` pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro`
 
 
 # Level 11 - 12
