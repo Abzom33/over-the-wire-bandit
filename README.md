@@ -281,7 +281,7 @@ For this level , all the letters have shifted by 13 positions. So the letter `A`
 
 ## Password :
 
-- The password is `7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4`
+- The password is  `GROozWPO8QyN0mGrjUkID0WCYkZiQxrN`
 
 
 
