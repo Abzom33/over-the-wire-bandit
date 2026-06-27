@@ -235,7 +235,7 @@ In this level, we use the commands `strings` and `grep`.
   command.
 
 
-## Password :  FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+## Password :  B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
 
 
 # Level 10 -11
