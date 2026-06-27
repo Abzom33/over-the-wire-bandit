@@ -61,7 +61,7 @@ Password : `PK8fYLZg2hnHSz83plBL1iEPKdD3QToB`
 
 the "-" symbol is used by the cat command for stdin (Standard Input) therefore its an option. To avoid you need to write out the full file path by ./[file name] 
 
-Password : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+Password : 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
 
 
 # Level 3 -4
