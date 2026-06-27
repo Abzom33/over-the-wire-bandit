@@ -80,7 +80,7 @@ Password : 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
 
 Explanation : use the 'cd' to get the inhere directory then use cat along with ./ to get the file path rather . option
 
-Password : 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+Password : xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
 
 
 # Level 4 - 5
