@@ -1,6 +1,6 @@
-# OverTheWire — Bandit Writeups
+# OverTheWire — Bandit Level 0 - 15
 
-A collection of solutions and explanations for the [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) wargame challenges.
+A collection of solutions and explanations for the [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) wargame challenges from Level 0 - 15.
 
 ---
 
