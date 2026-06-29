@@ -193,7 +193,7 @@ We use two commands: `sort` and `uniq`.
 - `uniq` — filters out repeated lines
 - `-u` — returns only lines that are unique (appeared exactly once)
 
-> `uniq` can only detect duplicates that are **adjacent** to each other, so `sort` must be run first to group identical lines together. Then `uniq -u` removes duplicates and returns each unique line once.
+- `uniq` can only detect duplicates that are **adjacent** to each other, so `sort` must be run first to group identical lines together. Then `uniq -u` removes duplicates and returns each unique line once.
 
 **Password:** `EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl`
 
