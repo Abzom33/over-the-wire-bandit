@@ -344,7 +344,28 @@ Since `data.txt` is a hexdump , you have to reverse by using the command `xxd -r
   - `aaWecNkG4FhxJQxz07uiwzVP6bJiYS65`
 
 
-   
+
+   # Level 14 - 15
+
+  ## Goal : The password for the next level can be retrieved by submitting the password of the current level to `port 30000` on `localhost.`
+
+
+## Solution : 
+<img width="694" height="48" alt="image" src="https://github.com/user-attachments/assets/45363e85-5640-4165-8282-c2725a374a0c" />
+
+
+## Explanation :
+- We use the `nc` command to connect to `port 30000` on the localhost`
+- We use the piping symbol `|` to redirect the password as input on the `nc` command
+
+
+## Password :
+
+- `pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7`
+
+
+  
+
 
 
    
