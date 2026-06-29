@@ -308,7 +308,40 @@ Since `data.txt` is a hexdump , you have to reverse by using the command `xxd -r
   ## Password :
 
 `qQYQiHOBPR8zR61qxYqX45quvihF2uzk`
+
+
+
+# Level 13 - 14
+
+## Goal : The password for the next level is stored in `/etc/bandit_pass/bandit14` and can only be read by user `bandit14.` For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. 
+
+
+## Solution :
+
+
+   <img width="789" height="42" alt="image" src="https://github.com/user-attachments/assets/09dc0877-c57e-4f0b-b8e2-0b6b91e59bb1" />
+
+<img width="796" height="218" alt="image" src="https://github.com/user-attachments/assets/f8cb93a0-77e0-4e72-abc5-3b7d7467210f" />
+
+<img width="559" height="29" alt="image" src="https://github.com/user-attachments/assets/05edd3c2-a73d-47a1-823a-e9210ffc1f4c" />
+
+
+
+## Explanation : 
+
+- First we use the `scp` command to copy the `ssh private key` from bandit remote server to my local machine.
+- Once the the `ssh private key` is in  our local machine , we `ssh` and use the `-i` option to specify the private key which we copied using the `scp` command .
+- Once logged in to `bandit14` , use the `cat` command to open the file  /etc/bandit_pass/bandit14 .
+
+
+
+  ## Password :
+
+  - `aaWecNkG4FhxJQxz07uiwzVP6bJiYS65`
+
+
    
+
 
    
 
