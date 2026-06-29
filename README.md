@@ -99,7 +99,7 @@ Use `cd` to navigate into the `inhere` directory, then use `cat` along with `./`
 
 ### Explanation
 
-The `find` command is used to filter out files using the `-type f` option, then we use the piping symbol `|` to redirect its output to `xargs`, which converts stdin into an argument applied to the next command. The `file` command identifies the file type — we are looking for a human-readable file, which is **ASCII text**. Once found, use `cat` with `./` to get the full file path since the filename contains `-`.
+The `find` command is used to filter out files using the `-type f` option, then we use the piping symbol `|` to redirect its output to `xargs`, which converts stdin into an argument applied to the next command. The `file` command identifies the file type , we are looking for a human-readable file, which is **ASCII text**. Once found, use `cat` with `./` to get the full file path since the filename contains `-`.
 
 **Password:** `6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG`
 
