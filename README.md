@@ -193,7 +193,7 @@ We use two commands: `sort` and `uniq`.
 - `uniq` — filters out repeated lines
 - `-u` — returns only lines that are unique (appeared exactly once)
 
-- `uniq` can only detect duplicates that are **adjacent** to each other, so `sort` must be run first to group identical lines together. Then `uniq -u` removes duplicates and returns each unique line once.
+- `uniq` can only detect **adjacent** duplicates, so `sort` must be run first to group identical lines then `uniq -u `filters them out and returns only the unique one.
 
 **Password:** `EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl`
 
@@ -250,7 +250,7 @@ The file `data.txt` contains base64 encoded data. To retrieve the password, deco
 All letters have been shifted by 13 positions (ROT13), so `A` → `N`, `Z` → `M`, etc. We use the `tr` command to translate characters back.
 
 - First set: all letters `A-Z` and `a-z`
-- Second set: the letters rotated 13 positions — `N-ZA-M` and `n-za-m` — mapped back to the first set
+- Second set: the letters rotated 13 positions — `N-ZA-M` and `n-za-m` mapped back to the first set
 
 ```bash
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
